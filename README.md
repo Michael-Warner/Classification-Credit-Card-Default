@@ -31,8 +31,3 @@ Three variables had the highest correlation if a person would default in October
 ## Conclusion:
 
 The bank should be watchful of males who have defaulted two months prior to the current month and they have a high school education level, as they are more likely to default then others.
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b

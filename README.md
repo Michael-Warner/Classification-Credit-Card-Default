@@ -24,9 +24,9 @@ A Gaussian Naive Bayes model was used as it had the best on recall prediction wi
 ### Based the EDA some key finds were found:
 
 Three variables had the highest correlation if a person would default in October or not.
-    * They had defaulted in August
-    * If they were male
-    * Their education level was high school level
+  * They had defaulted in August
+  * If they were male
+  * Their education level was high school level
 
 ## Conclusion:
 

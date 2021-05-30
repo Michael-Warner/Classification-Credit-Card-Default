@@ -3,9 +3,9 @@
 ## Purpose:
 The purpose of this project was to analyize a data set of a given set of credit cards and to correctly predict if a person was going to default or not on their cards based on their previous history and the history of others.
 
-!(https://thumbs.dreamstime.com/b/here-generic-credit-card-isolated-al-white-background-logos-type-generic-here-generic-credit-card-isolated-125482245.jpg)
+![Credit Card](https://thumbs.dreamstime.com/b/here-generic-credit-card-isolated-al-white-background-logos-type-generic-here-generic-credit-card-isolated-125482245.jpg)
+Please see the powerpoint for a overview of the case study [here](https://drive.google.com/file/d/1hBkihdzcTzu7ux6WfQoiqADsdA9tbz8j/view?usp=sharing), or see the comments in the jupyter file for more detail.
 
-https://drive.google.com/file/d/1hBkihdzcTzu7ux6WfQoiqADsdA9tbz8j/view?usp=sharing
 ## Data Set:
 The data set given was based on a [Kaggle Database](https://www.kaggle.com/mariosfish/default-of-credit-card-clients).
 
@@ -13,28 +13,22 @@ This data set had the following variables: history of payment, demographic facto
 
 The variable that was targeted was the default.payment.next.month, where 1 = default and 0 = not defaulted, which was based solely on if they defaulted or not in October of 2005. The 24 features included how much the client owed each month, what the clients payment status was, and the amount paid by the client for each month.
 
-This given dataset simulated a real world situtation as the dataset had inaccurate labels for default payment next month, the target variable, the payment status and was not precleaned. The authors of this dataset did not explain the rules or how to read the dataset clearly. We find the rules of payment status below for etter understanding: (Or you can find the rules in the notebook with the tables as clues)
+This given dataset simulated a real world situtation as the dataset had inaccurate labels for default payment next month, the target variable, the payment status and was not precleaned. To further complicate the dataset, it was not clearly explained how to read the dataset clearly. What each variable means and how to properly impliment them into our model, please check the juypter file.
 
 ## Methods:
-The methodology used was to clean the dataset, removal of NA values do a EDA
+The methodology used was to conduct an EDA, clean the dataset, and then the creation of multiple models to see which one would estimate the best.
 
 ## Results:
+A Gaussian Naive Bayes model was used as it had the best on recall prediction with a value of 89%. Recall was choosen as the benchmark as it was the more prudent to predict which customers are likely to have default payments next month or not. Rather than overestimate the potential loss/short of income flow than underestimate it in the perspective of cash flow control and risk management. Therefore, it was more important to identify as many default customers as possible even though some of them did not actually default.
+
+### Based the EDA some key finds were found:
+
+Three variables had the highest correlation if a person would default in October or not.
+    * They had defaulted in August
+    * If they were male
+    * Their education level was high school level
 
 ## Conclusion:
-Profesor : Herve BOCCO
 
+The bank should be watchful of males have defaulted two months prior to the current month and they have a high school education level, as they are more likely to default then others.
 
-The final objective of the project is to know and know how to put into practice the AI treatments
-necessary to answer a given problem. It also requires the ability to present and comment clearly
-and concisely (orally and in writing) on results tables and graphs and to take a critical look at the
-overall process of processing and reporting results.
-
-First, you must choose a study theme and a database. <br>
-Second, you must choose an AI technology. <br>
-Third, you must choose the story you want to tell through the study of these data. <br>
-Four, You must ensure that the purpose of your study is achievable by using the variables in the
-chosen database. However, you are not required to use all the variables, but you will need to select
-those that will be useful to you in your study. <br>
-Five. you have to provide a powerpoint document in about 8/10 slides with references.
-
-We choose a kaggle Data base : Default of credit card clients -->  

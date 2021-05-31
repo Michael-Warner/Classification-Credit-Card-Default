@@ -14,13 +14,13 @@ This dataset had the following variables: history of payment, demographic factor
 
 The variable that was targeted was the default.payment.next.month, where 1 = default and 0 = not defaulted, which was based solely on if they defaulted or not in October of 2005. The 24 features included how much the client owed each month, what the client's payment status was, and the amount paid by the client for each month.
 
-This given dataset simulated a real world situation as the dataset had inaccurate labels for default payment next month, the target variable, the payment status and was also, not precleaned. To further complicate the dataset, it was not clearly explained how to read the dataset correctly and this had to be throughly investigated. If you wish to see what each variable means and how they were properly implemented into our model, please check the juypter [file](https://github.com/Zexes9/Credit-Card-Default/blob/main/Default%20of%20credit%20card%20clients.ipynb).
+This given dataset simulated a real world situation as the dataset had inaccurate labels for default payment next month, the target variable, the payment status and was also, not precleaned. To further complicate the dataset, it was not clearly explained how to read the dataset correctly and this had to be thoroughly investigated. If you wish to see what each variable means and how they were properly implemented into our model, please check the juypter [file](https://github.com/Zexes9/Credit-Card-Default/blob/main/Default%20of%20credit%20card%20clients.ipynb).
 
 ## Methods:
 The methodology used was to conduct an EDA, clean the dataset, and the creation of multiple models to see which one would estimate recall best.
 
 ## Results:
-A Gaussian Naive Bayes model was chosen as it had the best recall prediction score with a value of 89%. Recall was chosen as the benchmark as it was more prudent to predict which customers are likely to have default payments next month or not, rather than overestimate the potential income flow. This would be vital for a bank or credit card company as they can not risk distuption of their cash flow control and risk management. Therefore, it was more important to identify as many potential default customers as possible, even though some of them did not actually default.
+A Gaussian Naive Bayes model was chosen as it had the best recall prediction score with a value of 89%. Recall was chosen as the benchmark as it was more prudent to predict which customers are likely to have default payments next month or not, rather than overestimate the potential income flow. This would be vital for a bank or credit card company as they can not risk disruption of their cash flow control and risk management. Therefore, it was more important to identify as many potential default customers as possible, even though some of them did not actually default.
 
 ### Based the EDA some key finds were found:
 

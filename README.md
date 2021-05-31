@@ -5,7 +5,7 @@ The purpose of this project was to analyze a dataset of a given set of credit ca
 
 ![Credit Card](https://thumbs.dreamstime.com/b/here-generic-credit-card-isolated-al-white-background-logos-type-generic-here-generic-credit-card-isolated-125482245.jpg)
 
-Please see the powerpoint for an overview of the case study [here](https://drive.google.com/file/d/1hBkihdzcTzu7ux6WfQoiqADsdA9tbz8j/view?usp=sharing), or see the comments in the [jupyter file](https://github.com/Zexes9/Credit-Card-Default/blob/main/Default%20of%20credit%20card%20clients.ipynb) for more detail.
+Please see the powerpoint for an overview of the case study [here](https://drive.google.com/file/d/1hBkihdzcTzu7ux6WfQoiqADsdA9tbz8j/view?usp=sharing), or download our [jupyter file](https://github.com/Zexes9/Credit-Card-Default/blob/main/Default%20of%20credit%20card%20clients.ipynb) for more detailed comments.
 
 ## Data Set:
 The dataset given was based on a [Kaggle Database](https://www.kaggle.com/mariosfish/default-of-credit-card-clients).
